@@ -1,10 +1,13 @@
 <resources>
     <string name="app_name">AndroidDemoApp</string>
 
-    <string name="text_to_encrypt">Text to encrypt</string>
-    <string name="the_quick_brown_fox">The quick brown fox</string>
-    <string name="encrypt">Encrypt</string>
-    <string name="encryption">Encryption</string>
-    <string name="decrypt">Decrypt</string>
-    <string name="decryption">Decryption</string>
+    <string name="main_qrcode_item_title">QRCode</string>
+
+    <string name="qrcode_title">QRCode</string>
+    <string name="qrcode_text_to_encrypt">Text to encrypt</string>
+    <string name="qrcode_the_quick_brown_fox">The quick brown fox</string>
+    <string name="qrcode_encrypt">Encrypt</string>
+    <string name="qrcode_encryption">Encryption</string>
+    <string name="qrcode_decrypt">Decrypt</string>
+    <string name="qrcode_decryption">Decryption</string>
 </resources>

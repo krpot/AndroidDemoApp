@@ -23,33 +23,33 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:hint="@string/text_to_encrypt">
+            android:hint="@string/qrcode_text_to_encrypt">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/messageEdt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/the_quick_brown_fox" />
+                android:text="@string/qrcode_the_quick_brown_fox" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/encrypt" />
+            android:text="@string/qrcode_encrypt" />
 
         <TextView
             android:id="@+id/encryptTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/encryption" />
+            android:hint="@string/qrcode_encryption" />
 
         <Button
             android:id="@+id/encryptBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/encrypt" />
+            android:text="@string/qrcode_encrypt" />
 
         <View
             android:layout_width="match_parent"
@@ -61,21 +61,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/decrypt" />
+            android:text="@string/qrcode_decrypt" />
 
         <TextView
             android:id="@+id/decryptTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:hint="@string/decryption" />
+            android:hint="@string/qrcode_decryption" />
 
         <Button
             android:id="@+id/decryptBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/decrypt" />
+            android:text="@string/qrcode_decrypt" />
 
         <ImageView
             android:id="@+id/qrcodeImg"

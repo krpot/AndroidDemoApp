@@ -1,5 +1,7 @@
 package com.mpark.androiddemoapp.qrcode.java;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -11,6 +13,11 @@ import com.mpark.androiddemoapp.databinding.ActivityQrcodeBinding;
 import java.util.Objects;
 
 public class QRCodeActivity extends AppCompatActivity {
+
+    public static void show(Context context) {
+        Intent intent = new Intent(context, QRCodeActivity.class);
+        context.startActivity(intent);
+    }
 
     private ActivityQrcodeBinding binding;
     private QRCodeViewModel viewModel;
