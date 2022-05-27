@@ -3,6 +3,7 @@ package com.mpark.androiddemoapp.qrcode.java;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -56,7 +57,7 @@ public class QRCodeActivity extends AppCompatActivity {
 
     private void bindError(Throwable error) {
         if (error == null) return;
-        binding.encryptTxt.setText(error.getLocalizedMessage());
+        Toast.makeText(this, error.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
     }
 
     private void bindEncryptedData(QRCodeUiState state) {
