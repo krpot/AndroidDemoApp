@@ -36,16 +36,6 @@ public class QRCodeViewModel extends ViewModel implements QRCodeRepository.Liste
         stateHolder.postQRCode(qrCodeData);
     }
 
-//    @Override
-//    public void onEncrypted(String message, NtruByteArray encrypted) {
-//        stateHolder.postEncrypted(message, encrypted);
-//        generateQrCode(message, encrypted);
-//    }
-
-//    private void generateQrCode(String message, NtruByteArray encrypted) {
-//        repository.generateQrCode(encrypted.base64Encoded());
-//    }
-
     @Override
     public void onDecrypted(NtruByteArray decrypted) {
         stateHolder.postDecrypted(decrypted);
