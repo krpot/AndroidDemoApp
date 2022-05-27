@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidDemoApp</string>
+
+    <string name="text_to_encrypt">Text to encrypt</string>
+    <string name="the_quick_brown_fox">The quick brown fox</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="encryption">Encryption</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="decryption">Decryption</string>
+</resources>
