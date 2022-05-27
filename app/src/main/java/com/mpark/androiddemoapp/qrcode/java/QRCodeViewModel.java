@@ -23,7 +23,7 @@ public class QRCodeViewModel extends ViewModel implements QRCodeRepository.Liste
         return stateHolder.getUiState();
     }
 
-    public void encrypt(String message) {
+    public void generateQRCode(String message) {
         repository.encrypt(message);
     }
 

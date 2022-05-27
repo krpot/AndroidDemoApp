@@ -34,7 +34,7 @@ public class QRCodeActivity extends AppCompatActivity {
     }
 
     private void setupView() {
-        binding.encryptBtn.setOnClickListener(v -> runEncryption());
+        binding.encryptBtn.setOnClickListener(v -> generateQRCode());
         binding.decryptBtn.setOnClickListener(v -> runDecryption());
     }
 
@@ -70,8 +70,8 @@ public class QRCodeActivity extends AppCompatActivity {
         binding.qrcodeImg.setImageBitmap(qrCode.bitmap());
     }
 
-    private void runEncryption() {
-        viewModel.encrypt(getMessage());
+    private void generateQRCode() {
+        viewModel.generateQRCode(getMessage());
     }
 
     @NonNull
